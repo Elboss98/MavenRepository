@@ -3,8 +3,15 @@
      <groupId>joanji.maven</groupId>
      <artifactId>maven_project</artifactId>
      <version>1</version>
+     <dependencies>
+	<dependency>
+    	    <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.7</version>
+	</dependency>
+     </dependencies>
      <build>
-     <plugins>
+      <plugins>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
